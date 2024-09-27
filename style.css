@@ -1,3 +1,63 @@
+*{
+    
+   
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 215, 215);
+}
+.div_container{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    
+    border-radius: 10px;
+    
+}
+p{
+    font-size: 14px;
+}
+span{
+    font-size: 14px;
+}
+.div_container .card{
+
+padding-left: 5px;
+padding-right: 5px;
+    
+}
+.div_container .card2{
+    background-color: rgb(171, 170, 170);
+    height: 30px;
+    padding-top: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: right;
+    padding-right: 8px;
+    
+}
+.div_container .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.div_container .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.div_container .card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
 header{
 background-color: #009270;
 display: flex;
@@ -9,6 +69,12 @@ span{
     font-size: 18px;
    
 }
+button{
+    background-color: red;
+   width: 50px;
+    height: 20px;
+    border-radius: 10px;
+border: none;}
 #btn{
     background-color: rgb(243, 240, 240);
     border-radius: 10px;
@@ -18,35 +84,32 @@ span{
     font-size: 14px;
     height: 30px;
 }
-div{
-    background-color: white;
-    width: 300px;
-    height: 200px;
-    border: 1px solid rgb(181, 177, 177);
-   
-    
-}
- #card1{
-   
-    height: 160px;
-    
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    padding-top: 10px;
-    padding-left: 5px;
-    
-}
-#card2{
-    background-color: rgb(188, 183, 183);
-    text-align: right;
+#txt_color{
+    color: red;
+     padding-left: 5px;
     padding-right: 5px;
-    
-    
-    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
-button{
-    background-color: red;
-   width: 50px;
+.card2{
+    background-color: gray;
+}
+.main_conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bt1{
+    background-color: #0579bc;
+    width: 50px;
     height: 20px;
     border-radius: 10px;
+    border: none;
 }
+#bt2{
+    background-color: #E3E6E3;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;}
+
